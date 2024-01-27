@@ -3,20 +3,19 @@
 	"id": "seafloor_gardening",
 	"version": "${version}",
 	"name": "Seafloor Gardening",
-	"description": "",
+	"description": "Makes Spreadable Blocks like Grass Blocks, ignore water.",
 	"authors": [
 		"rotgruengelb"
 	],
 	"contact": {
+		"homepage": "https://modrinth.com/project/seafloor_gardening",
+		"sources": "https://github.com/rotgruengelb/seafloor_gardening",
 		"repo": "https://github.com/rotgruengelb/seafloor_gardening"
 	},
 	"license": "MIT",
 	"icon": "assets/seafloor_gardening/icon.png",
-	"environment": "*",
+	"environment": "server",
 	"entrypoints": {
-		"client": [
-			"net.rotgruengelb.seafloor_gardening.client.SeafloorGardeningClient"
-		],
 		"main": [
 			"net.rotgruengelb.seafloor_gardening.SeafloorGardening"
 		]
@@ -25,8 +24,8 @@
 		"seafloor_gardening.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=${loader_version}",
-		"fabric": "*",
-		"minecraft": "${minecraft_version}"
+		"fabricloader": ">=0.15.6",
+		"minecraft": "1.20.X",
+		"java": ">=17"
 	}
 }
