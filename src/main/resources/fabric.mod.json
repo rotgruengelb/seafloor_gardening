@@ -1,26 +1,32 @@
 {
-  "schemaVersion": 1,
-  "id": "seafloor_gardening",
-  "version": "${version}",
-
-  "name": "Seafloor Gardening",
-  "description": "",
-  "authors": [],
-  "contact": {},
-
-  "license": "MIT",
-  "icon": "assets/seafloor_gardening/icon.png",
-
-  "environment": "*",
-  "entrypoints": {},
-
-      "mixins": [
-        "seafloor_gardening.mixins.json"
-      ],
-
-  "depends": {
-    "fabricloader": ">=${loader_version}",
-        "fabric": "*",
-    "minecraft": "${minecraft_version}"
-  }
+	"schemaVersion": 1,
+	"id": "seafloor_gardening",
+	"version": "${version}",
+	"name": "Seafloor Gardening",
+	"description": "",
+	"authors": [
+		"rotgruengelb"
+	],
+	"contact": {
+		"repo": "https://github.com/rotgruengelb/seafloor_gardening"
+	},
+	"license": "MIT",
+	"icon": "assets/seafloor_gardening/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"net.rotgruengelb.seafloor_gardening.client.SeafloorGardeningClient"
+		],
+		"main": [
+			"net.rotgruengelb.seafloor_gardening.SeafloorGardening"
+		]
+	},
+	"mixins": [
+		"seafloor_gardening.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"fabric": "*",
+		"minecraft": "${minecraft_version}"
+	}
 }
