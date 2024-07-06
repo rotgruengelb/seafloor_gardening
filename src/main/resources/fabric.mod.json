@@ -24,8 +24,8 @@
 		"seafloor_gardening.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.6",
-		"minecraft": "1.20.X",
-		"java": ">=17"
-	}
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "1.21.X",
+		"java": ">=21"
+		}
 }
