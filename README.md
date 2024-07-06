@@ -1,4 +1,4 @@
-# Underwater Gardening
+# Seafloor Gardening
 Spreadable blocks (Grass Blocks) now ignore water that is above them, making them survive and spread underwater. 
 
 This is a Server-Side mod! (still works in singleplayer of course)
